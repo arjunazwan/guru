@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-05-10",
+  "total_bundled_skills": 907,
+  "sources": [
+    {
+      "id": "marketingskills",
+      "name": "Marketing Skills",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "author": "Corey Haines",
+      "description": "44 marketing skills covering SEO, CRO, ads, copywriting, email sequences, social content, pricing, competitor analysis, and more.",
+      "skill_count": 44,
+      "last_synced": "2026-05-09",
+      "categories": ["marketing", "sales", "conversion", "content", "seo", "advertising", "social-media", "growth"]
+    },
+    {
+      "id": "awesome-claude-skills",
+      "name": "Awesome Claude Skills",
+      "repo": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "author": "Composio (YC W23)",
+      "description": "27 curated dev/productivity skills (mcp-builder, changelog-generator, webapp-testing, etc.) + 4 document skills (docx/pdf/pptx/xlsx) + 832 composio SaaS automation skills (Slack, Gmail, GitHub, Notion, etc.)",
+      "skill_count": 863,
+      "last_synced": "2026-05-10",
+      "categories": ["development", "productivity", "saas-automation", "documents", "dev-tools"],
+      "sub_components": [
+        { "name": "Curated Dev/Productivity", "count": 27, "path": "root" },
+        { "name": "Document Skills", "count": 4, "path": "document-skills/" },
+        { "name": "Composio SaaS Automation", "count": 832, "path": "composio-skills/" }
+      ]
+    }
+  ],
+  "planned_sources": [
+    {
+      "id": "superpowers",
+      "name": "Superpowers Development Skills",
+      "repo": "https://github.com/obra/superpowers",
+      "author": "Obra",
+      "description": "20+ development workflow skills — TDD, brainstorming, code review, worktrees, verification, dispatching parallel agents.",
+      "status": "planned",
+      "categories": ["development", "workflow", "quality"]
+    },
+    {
+      "id": "frontend-design",
+      "name": "Frontend Design Skills",
+      "repo": "TBD",
+      "author": "TBD",
+      "description": "Design-to-code skills for building production-grade frontend interfaces. Design happens before AI agents write backend/database.",
+      "status": "planned",
+      "categories": ["design", "frontend", "ui"]
+    }
+  ]
+}

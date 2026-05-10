@@ -1,0 +1,21 @@
+# GURU skill gitignore
+# The guru skill is a standalone repo. Only the skill itself is tracked.
+# Auto-generated files from user machines must never be committed.
+
+# Auto-generated (regenerated on every machine)
+.agents/capability-map.md
+.agents/guru-status.md
+
+# User data (private)
+.agents/gaps-log.md
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
+.idea/
